@@ -1,0 +1,83 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+  }
+  
+  .content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+  }
+  
+  .left, .right {
+    flex-basis: 45%;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    color: #000; /* Dark blue color */
+  }
+  .heading > b{
+    color:#007bff;
+  }
+  .bold-text {
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: left;
+    left: 0;
+
+  }
+  
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .description > p {
+    text-align: left;
+    font-size: 1.5rem;
+    white-space: pre-wrap; /* Allow line wrapping in <pre> tag */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query for mobile responsiveness */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left, .right {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+.enroll-button {
+    background-color: #007bff; /* Green background color */
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .enroll-button:hover {
+    background-color: #004996; /* Darker green color on hover */
+  }
+  

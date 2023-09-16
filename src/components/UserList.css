@@ -1,0 +1,37 @@
+.user-list-container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 10px;
+  }
+  
+  .user-list-heading {
+    font-size: 2em; /* Larger font size */
+    color: #007bff; /* Dark blue heading color */
+    margin-bottom: 20px;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .table-header {
+    background-color: #28a745; /* Green header background */
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .user-list-table th,
+  .user-list-table td {
+    border: 1px solid #28a745; /* Green border color */
+    padding: 12px;
+  }
+  
+  .user-list-table tbody tr:nth-child(even) {
+    background-color: #c3e6cb; /* Light green background for even rows */
+  }
+  

@@ -1,0 +1,72 @@
+/* Features.css */
+
+.features-container {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 20px;
+  }
+  
+  .heading {
+    margin-bottom: 30px;
+  }
+  
+  /* Making heading smaller */
+  .heading h1 {
+    font-size: 2em;
+  }
+  
+  /* Making heading even smaller on mobile */
+  @media (max-width: 768px) {
+    .heading h1 {
+      font-size: 1.5em;
+    }
+  }
+  
+  .features-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .featurecard {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featurecard img {
+    /* padding: auto; */
+    max-width: 30%;
+  }
+  .img-center{
+    width: 100%;
+        display: flex;
+        justify-content: center;
+  }
+  .featurecard h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #007bff;
+  }
+  
+  .featurecard p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .features-list {
+      grid-template-columns: 1fr;
+    }
+    
+    .featurecard {
+      max-width: 100%;
+    }
+  }
+  
